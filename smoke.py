@@ -38,7 +38,7 @@ if __name__ == '__main__':
     class Pack:
         @staticmethod
         def f():
-            yield test
+            yield test  # Drag
 
 
     assert held_attr(hold_attr(Pack, 'f')) == test
